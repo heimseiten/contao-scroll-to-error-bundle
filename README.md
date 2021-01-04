@@ -1,5 +1,2 @@
-![Alt text](src/Resources/public/logo.png?raw=true "logo")
-
-
-# Welcome to scroll to error
-This bundle is still under construction.
+# scroll to error
+Wenn ein Formular einen Fehler meldet, scrollt die Webseite an die Stelle des Fehlers.
