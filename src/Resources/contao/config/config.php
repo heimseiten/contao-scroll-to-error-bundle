@@ -10,4 +10,7 @@
  * @link https://github.com/heimseiten/contao-scroll-to-error-bundle
  */
 
-$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaoscrolltoerror/scroll_to_error.js';
+if (TL_MODE == 'FE')
+{
+    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaoscrolltoerror/scroll_to_error.js';    
+}
