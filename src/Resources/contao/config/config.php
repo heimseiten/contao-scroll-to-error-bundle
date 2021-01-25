@@ -12,5 +12,5 @@
 
 if (TL_MODE == 'FE')
 {
-    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaoscrolltoerror/scroll_to_error.js';    
+    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaoscrolltoerror/scroll_to_error.js';    
 }
