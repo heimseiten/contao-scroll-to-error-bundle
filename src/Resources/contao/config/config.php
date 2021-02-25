@@ -12,5 +12,5 @@
 
 if (TL_MODE == 'FE')
 {
-    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaoscrolltoerror/scroll_to_error.js';    
+    $GLOBALS['TL_HEAD'][] = '<script defer src="/bundles/heimseitencontaoscrolltoerror/scroll_to_error.js"></script>'; 
 }
